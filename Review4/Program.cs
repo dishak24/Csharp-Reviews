@@ -7,21 +7,21 @@ internal class Program
         Console.WriteLine("Review - 4 \n\n");
 
 
-        /*DataValidation dataValidation = new DataValidation();
+        DataValidation dataValidation = new DataValidation();
         dataValidation.Validate();
 
         PhoneNumberExtract.ExtractNumber();
-        DateExtract.ExtractDate();*/
+        DateExtract.ExtractDate();
 
-        //ReplaceWhiteSpaces.ReplaceSpace();
+        ReplaceWhiteSpaces.ReplaceSpace();
 
-        //FileSizeCheck.FileCheck();
+        FileSizeCheck.FileCheck();
 
-        //PalindromeUsingLambda.IsPalindromString();
+        PalindromeUsingLambda.IsPalindromString();
 
-        /*FileHandling fileReadWrite = new FileHandling();
+        FileHandling fileReadWrite = new FileHandling();
         fileReadWrite.ReadFile();
-        fileReadWrite.WriteData();*/
+        fileReadWrite.WriteData();
 
         JSONDataReader jSON = new JSONDataReader();
         jSON.ParseAndReadData();
